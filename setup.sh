@@ -11,3 +11,7 @@ echo '=> Install Google Maps Photo Gallery...'
 wp plugin install google-maps-photo-gallery --allow-root
 echo '=> Install NS Featured Posts...'
 wp plugin install ns-featured-posts --allow-root
+
+echo '=> Clone blanketsheep/theme ...'
+mkdir -p wp-content/themes/hachioji
+git clone -b builds http://github.com/blanketsheep/theme.git wp-content/themes/hachioji
